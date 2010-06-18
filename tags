@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+_PARSER_H_	parser.h	/^#define _PARSER_H_$/;"	d
+_SUBTIMES_H_	utils/subtimes.h	/^#define _SUBTIMES_H_$/;"	d
+_SUBTITLES_H_	headers/subtitles.h	/^#define _SUBTITLES_H_$/;"	d
+hours	utils/subtimes.h	/^	int hours;$/;"	m	struct:__anon1
+is_subrip	parsers/subrip.c	/^int is_subrip(char *buf)$/;"	f
+main	subtitles.c	/^int main(int argc, char **argv)$/;"	f
+minutes	utils/subtimes.h	/^	int minutes;$/;"	m	struct:__anon1
+parse	parser.c	/^int parse(char *buf)$/;"	f
+readfile	subtitles.c	/^int readfile (char *filepath)$/;"	f
+seconds	utils/subtimes.h	/^	float seconds;$/;"	m	struct:__anon1
+secondstamp_t	utils/subtimes.h	/^typedef float secondstamp_t;$/;"	t
+secondstamp_to_subtime	utils/subtimes.c	/^subtime_t secondstamp_to_subtime(secondstamp_t secs)$/;"	f
+simple_match	utils/regex.c	/^int simple_match(char *subject, *pattern)$/;"	f
+srtstring_to_subtime	parsers/subrip.c	/^subtime_t srtstring_to_subtime(char *timestamp, int *error)$/;"	f
+subtime_t	utils/subtimes.h	/^} subtime_t;$/;"	t	typeref:struct:__anon1
+subtime_to_secondstamp	utils/subtimes.c	/^secondstamp_t subtime_to_secondstamp(subtime_t timestamp)$/;"	f
+subtime_to_srtstring	parsers/subrip.c	/^char *subtime_to_srtstring(subtime_t timestamp)$/;"	f
